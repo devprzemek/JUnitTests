@@ -14,4 +14,8 @@ public interface Inventory extends Iterable<InventoryItem> {
 
     int getSize();
     double getTotalWeight();
+
+    int getSizeLimit();
+    double getWeightLimit();
+
 }

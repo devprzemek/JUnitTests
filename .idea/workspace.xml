@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fcc2b5b-b518-4082-90a1-5e2f881345f0" name="Default Changelist" comment="" />
+    <list default="true" id="0fcc2b5b-b518-4082-90a1-5e2f881345f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/InventoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/InventoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/InventoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/InventoryImplTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,6 +36,7 @@
   </component>
   <component name="ProjectId" id="1XezfwrWtqINiuNtRmgtAZsYQ1A" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -66,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InventoryItemImplTest">
+  <component name="RunManager" selected="JUnit.InventoryImplTest">
     <configuration name="CircuitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTests" />
       <extension name="coverage">
@@ -92,6 +102,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.assertions" />
       <option name="MAIN_CLASS_NAME" value="com.example.assertions.FractionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.InventoryImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,36 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoteServiceImplTest.add_persistenceError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.imitation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.imitation" />
-      <option name="MAIN_CLASS_NAME" value="com.example.imitation.NoteServiceImplTest" />
-      <option name="METHOD_NAME" value="add_persistenceError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.NoteServiceImplTest.add_persistenceError" />
       <item itemvalue="JUnit.FractionTest" />
       <item itemvalue="JUnit.CircuitTest" />
       <item itemvalue="JUnit.InventoryItemImplTest" />
       <item itemvalue="JUnit.InventoryItemImplTest.createWithEmptyName" />
+      <item itemvalue="JUnit.InventoryImplTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InventoryImplTest" />
         <item itemvalue="JUnit.InventoryItemImplTest" />
         <item itemvalue="JUnit.InventoryItemImplTest.createWithEmptyName" />
         <item itemvalue="JUnit.CircuitTest" />
         <item itemvalue="JUnit.FractionTest" />
-        <item itemvalue="JUnit.NoteServiceImplTest.add_persistenceError" />
       </list>
     </recent_temporary>
   </component>
@@ -173,5 +182,16 @@
       <updated>1581421454764</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
